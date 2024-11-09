@@ -39,8 +39,8 @@ function App() {
           {" "}
           <p className="p-2 text-center  " >
             Made with Love ❤️ by{" "}
-            < a className="underline" target="_blank" href="https://www.twitter.com/prrthamm">
-              @prrthamm
+            < a className="underline" target="_blank" href="https://www.twitter.com/metav77">
+              @shivam
             </a>
           </p>
         </div>
