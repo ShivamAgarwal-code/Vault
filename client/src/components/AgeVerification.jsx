@@ -231,7 +231,7 @@ const AgeVerification = () => {
                       : `border-red-200 bg-red-100`
                   }  p-4 items-center `}
                 >
-                  <p>Proof </p>
+                  <p>Proof of Age</p>
                   <p
                     className={`${
                       getVerificationStatus
