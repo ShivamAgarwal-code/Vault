@@ -179,7 +179,7 @@ const MyProofs = () => {
               <a href="/proofs">
                 {" "}
                 <span className="cursor-pointer font-semibold underline">
-                  here
+                  here!
                 </span>
               </a>
             </p>
