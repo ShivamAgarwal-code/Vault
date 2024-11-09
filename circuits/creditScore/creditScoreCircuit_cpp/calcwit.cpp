@@ -38,7 +38,7 @@ Circom_CalcWit::Circom_CalcWit (Circom_Circuit *aCircuit, uint maxTh) {
 
   maxThread = maxTh;
 
-  // parallelism
+  
   numThread = 0;
 
 }
