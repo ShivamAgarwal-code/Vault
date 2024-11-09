@@ -50,7 +50,7 @@ library Pairing {
         input[2] = p2.X;
         input[3] = p2.Y;
         bool success;
-        // solium-disable-next-line security/no-inline-assembly
+        
         assembly {
             success := staticcall(sub(gas(), 2000), 6, input, 0xc0, r, 0x60)
             // Use "invalid" to make gas estimation work
