@@ -54,7 +54,7 @@ library Pairing {
             return G1Point(0, 0);
         return G1Point(p.X, q - (p.Y % q));
     }
-    /// @return r the sum of two points of G1
+    
     function addition(G1Point memory p1, G1Point memory p2) internal view returns (G1Point memory r) {
         uint[4] memory input;
         input[0] = p1.X;
