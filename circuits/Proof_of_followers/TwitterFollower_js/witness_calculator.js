@@ -43,7 +43,7 @@ module.exports = async function builder(code, options) {
 	    },
 	    writeBufferMessage : function() {
 			const msg = getMessage();
-			// Any calls to `log()` will always end with a `\n`, so that's when we print and reset
+			
 			if (msg === "\n") {
 				console.log(msgStr);
 				msgStr = "";
